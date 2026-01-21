@@ -1,4 +1,4 @@
-# 🎲 The Board Game Vault 🧠✨  
+# 🎲 The Board Game 🧠✨  
 ### Ejercicio Técnico – Landing Page de Juegos de Mesa
 
 🚀 Proyecto desarrollado con **Next.js**, enfocado en la creación de una **landing page de alto impacto** para una plataforma de descubrimiento de **juegos de mesa**.
