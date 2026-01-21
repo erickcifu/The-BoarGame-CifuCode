@@ -15,7 +15,7 @@ El objetivo es construir una **aplicación web en Next.js** que funcione como un
 - 🎨 Criterio visual y jerarquía de información  
 - 🧠 Buenas prácticas de desarrollo frontend  
 
-Todo esto **SIN un diseño previo (no Figma 😱)**.
+
 
 ---
 
@@ -23,7 +23,7 @@ Todo esto **SIN un diseño previo (no Figma 😱)**.
 
 - ⚛️ **Next.js (App Router)**
 - 🧩 React
-- 🎨 CSS / Tailwind / Styled Components (según implementación)
+- 🎨 CSS 
 - 🖼️ next/image
 - 🔤 next/font (Geist)
 - 🧪 Datos simulados (locales)
