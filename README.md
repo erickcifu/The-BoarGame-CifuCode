@@ -25,7 +25,6 @@ El objetivo es construir una **aplicación web en Next.js** que funcione como un
 - 🧩 React
 - 🎨 CSS 
 - 🖼️ next/image
-- 🔤 next/font (Geist)
 - 🧪 Datos simulados (locales)
 
 ---
