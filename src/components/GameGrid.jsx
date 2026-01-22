@@ -3,6 +3,8 @@
 import { useEffect, useState } from "react";
 import GameCard from "./GameCard";
 import Filters from "./Filters";
+import SkeletonCard from "./SkeletonCard";
+
 import { games as gamesData } from "@/data/games";
 
 export default function GameGrid() {
@@ -45,9 +47,13 @@ export default function GameGrid() {
 
       <Filters filters={filters} setFilters={setFilters} />
 
-      {loading ? (
-        <p className="text-gray-500">Cargando juegos...</p>
-      ) : (
+        {loading ? (
+          <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            {Array.from({ length: 8 }).map((_, i) => (
+              <SkeletonCard key={i} />
+            ))}
+          </div>
+        ) : (
         <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {filteredGames.map((game) => (
             <GameCard key={game.id} game={game} />

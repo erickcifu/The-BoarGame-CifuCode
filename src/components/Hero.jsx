@@ -8,7 +8,7 @@ export default function Hero() {
         ¡Tu próxima gran aventura comienza aquí!
       </h2>
       
-      <h3 className="text-3xl md:text-5xl font-black mb-8 leading-tight text-gray-900">
+      <h3 className="text-3xl md:text-5xl font-black mb-8 leading-tight text-blue-950">
         Descubre tu próximo <br />
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-500">
           juego de mesa favorito
