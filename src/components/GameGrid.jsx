@@ -40,7 +40,7 @@ export default function GameGrid() {
 
   // Render
   return (
-    <section className="px-6 py-20 max-w-7xl mx-auto">
+    <section id="catalogo" className="px-6 py-20 max-w-7xl mx-auto">
       <h2 className="text-3xl font-extrabold mb-10">
         Catálogo de Juegos 🎲
       </h2>

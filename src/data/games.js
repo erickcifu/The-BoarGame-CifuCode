@@ -6,7 +6,7 @@ export const games = [
     price: 35,
     rating: 4.8,
     players: "3-4",
-    image: "https://m.media-amazon.com/images/I/81FzF8bjOjL._AC_UF894,1000_QL80_.jpg",
+    image: "/images/games/BancoPoly.jpg",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const games = [
     price: 30,
     rating: 4.5,
     players: "2-4",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVcxVKqfrKPDGdhRpX_F87266RfaF6lApbMQ&s",
+    image: "/images/games/wicha.png",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const games = [
     price: 28,
     rating: 4.6,
     players: "4-5",
-    image: "https://arescronida.files.wordpress.com/2018/04/serp_esc-02.png",
+    image: "/images/games/serp_esc02.png",
   },
   {
     id: 4,
@@ -33,16 +33,16 @@ export const games = [
     price: 12,
     rating: 4.2,
     players: "2-10",
-    image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/470220/b8741c3f32ce4560f33d6a7af256ec8c9828f285/header.jpg?t=1765229632",
+    image: "/images/games/uno.jpg",
   },
   {
     id: 5,
-    name: "Bancopoli",
+    name: "Bancopoly",
     category: "Estrategia",
     price: 35,
     rating: 4.8,
     players: "3-4",
-    image: "https://m.media-amazon.com/images/I/81FzF8bjOjL._AC_UF894,1000_QL80_.jpg",
+    image: "/images/games/BancoPoly2.jpg",
   },
   {
     id: 6,
@@ -51,7 +51,7 @@ export const games = [
     price: 30,
     rating: 4.5,
     players: "2-4",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVcxVKqfrKPDGdhRpX_F87266RfaF6lApbMQ&s",
+    image: "/images/games/wicha.png",
   },
   {
     id: 7,
@@ -60,7 +60,7 @@ export const games = [
     price: 28,
     rating: 4.6,
     players: "4-5",
-    image: "https://arescronida.files.wordpress.com/2018/04/serp_esc-02.png",
+    image: "/images/games/serp_esc02.png",
   },
   {
     id: 8,
@@ -69,6 +69,6 @@ export const games = [
     price: 12,
     rating: 4.2,
     players: "2-10",
-    image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/470220/b8741c3f32ce4560f33d6a7af256ec8c9828f285/header.jpg?t=1765229632",
+    image: "/images/games/uno.jpg",
   },
 ];

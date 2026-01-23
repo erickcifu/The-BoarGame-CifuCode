@@ -6,9 +6,21 @@ export default function Navbar() {
       </h1>
 
       <ul className="hidden md:flex gap-6 text-sm">
-        <li className="cursor-pointer hover:text-blue-400">Catálogo</li>
-        <li className="cursor-pointer hover:text-blue-400">Sponsors</li>
-        <li className="cursor-pointer hover:text-blue-400">Explorar</li>
+        <li>
+          <a href="#catalogo" className="hover:text-blue-400">
+            Catálogo
+          </a>
+        </li>
+        <li>
+          <a href="#sponsors" className="hover:text-blue-400">
+            Sponsors
+          </a>
+        </li>
+        <li>
+          <a href="#" className="hover:text-blue-400">
+            Explorar
+          </a>
+        </li>
       </ul>
     </nav>
   );

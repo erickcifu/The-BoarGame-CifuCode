@@ -20,13 +20,17 @@ export default function Hero() {
         misterios por resolver y victorias memorables.
       </p>
 
-      <div className="flex flex-col sm:flex-row justify-center gap-4 mb-20">
-        <button className="bg-blue-600 text-white px-8 py-4 rounded-full font-bold shadow-lg shadow-blue-200 hover:bg-blue-700 hover:-translate-y-1 transition-all">
+ <div className="flex flex-col sm:flex-row justify-center gap-4 mb-20">
+        <a href="#catalogo"
+          className="bg-blue-600 text-white px-8 py-4 rounded-full font-bold shadow-lg shadow-blue-200 hover:bg-blue-700 hover:-translate-y-1 transition-all"
+        >
           Explorar catálogo
-        </button>
-        <button className="border-2 border-gray-200 text-gray-700 px-8 py-4 rounded-full font-bold hover:bg-gray-50 transition-all">
+        </a>
+        <a href="#sponsors" 
+        className="border-2 border-gray-200 text-gray-700 px-8 py-4 rounded-full font-bold hover:bg-gray-50 transition-all"
+        >
           Ver sponsors
-        </button>
+        </a>
       </div>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-10 border-t border-gray-100">
