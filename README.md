@@ -45,31 +45,6 @@ El objetivo es construir una **aplicación web en Next.js** que funcione como un
 - ✅ Diseño responsive (mobile & desktop)
 - ✅ Deploy automático con Vercel
 ---
-
-## 📂 Estructura del proyecto
-src/
-├── app/
-│ ├── page.jsx
-│ ├── layout.js
-│ ├── loading.jsx
-│ └── game/
-│ └── [id]/
-│ └── page.jsx
-│ └── loading.jsx
-│
-├── components/
-│ ├── Navbar.jsx
-│ ├── Hero.jsx
-│ ├── GameGrid.jsx
-│ ├── GameCard.jsx
-│ ├── Filters.jsx
-│ ├── GameGridSkeleton.jsx
-│ └── GameDetailSkeleton.jsx
-│
-├── data/
-│ └── games.js
-| └── sponsors.js
-
 ## 🛠️ Instalación y ejecución local
 
 ```bash
@@ -81,5 +56,32 @@ npm install
 
 # Ejecutar en desarrollo
 npm run dev
+```
+---
+## 📁 Estructura del proyecto
+
+```bash
+src/
+├── app/
+│   ├── page.jsx
+│   ├── layout.js
+│   ├── loading.jsx
+│   └── game/
+│       └── [id]/
+│           ├── page.jsx
+│           └── loading.jsx
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── GameGrid.jsx
+│   ├── GameCard.jsx
+│   ├── Filters.jsx
+│   ├── GameGridSkeleton.jsx
+│   └── GameDetailSkeleton.jsx
+└── data/
+    ├── games.js
+    └── sponsors.js
+
+
 
 
