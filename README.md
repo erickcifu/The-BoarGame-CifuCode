@@ -1,10 +1,10 @@
-# 🎲 The Board Game 🧠✨  
+## 🎲 The Board Game 
 ### Ejercicio Técnico – Landing Page de Juegos de Mesa
 
-🚀 Plataforma web para descubrir y explorar juegos de mesa, desarrollada con **Next.js (App Router)**, enfocada en **experiencia de usuario, rendimiento y buenas prácticas frontend**.
+🚀 Plataforma web para descubrir y explorar juegos de mesa, desarrollada con **Next.js**, enfocada en **experiencia de usuario, rendimiento y buenas prácticas frontend**.
 
 ---
-🔗 **Demo en vivo:**  
+🔗 **Demostración en vivo:**  
 https://the-boar-game-cifu-code.vercel.app
 ---
 
@@ -15,13 +15,13 @@ El objetivo es construir una **aplicación web en Next.js** que funcione como un
 - 🏗️ Arquitectura en Next.js  
 - ⏳ Manejo de estados asíncronos y latencia simulada  
 - 🎨 Criterio visual y jerarquía de información  
-- 🧠 Buenas prácticas de desarrollo frontend  
+- ✅ Buenas prácticas de desarrollo frontend
 
 
 
 ---
 
-## 🧠 Tecnologías utilizadas
+## 🖥️ Tecnologías utilizadas 
 
 - **Next.js 16.1.4** (App Router)
 - **React**
@@ -31,7 +31,7 @@ El objetivo es construir una **aplicación web en Next.js** que funcione como un
 - **JavaScript (ES6+)**
 
 ---
-## 🚀 Funcionalidades principales
+## 🚀 Funcionalidades principales de la solución
 
 - ✅ Landing page con Hero y navegación clara
 - ✅ Catálogo de juegos con grid responsive
@@ -42,19 +42,19 @@ El objetivo es construir una **aplicación web en Next.js** que funcione como un
 - ✅ Simulación de latencia real
 - ✅ Manejo de errores (`notFound`)
 - ✅ Optimización de imágenes con `next/image`
-- ✅ Diseño responsive (mobile & desktop)
-- ✅ Deploy automático con Vercel
+- ✅ Diseño responsivo
+- ✅ Despliegue automático con Vercel
 ---
 ## 🛠️ Instalación y ejecución local
 
 ```bash
 # Clonar repositorio
-git clone https://github.com/tu-usuario/tu-repo.git
+git clone https://github.com/erickcifu/The-BoarGame-CifuCode.git
 
 # Instalar dependencias
 npm install
 
-# Ejecutar en desarrollo
+# Ejecutar localmente
 npm run dev
 ```
 ---
@@ -81,6 +81,11 @@ src/
 └── data/
     ├── games.js
     └── sponsors.js
+
+
+
+
+
 
 
 
