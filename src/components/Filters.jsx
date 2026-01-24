@@ -1,7 +1,7 @@
 export default function Filters({ filters, setFilters }) {
   return (
     <div className="flex flex-wrap gap-4 mb-10">
-      
+      {/* filtro por categorias */}
       <select
         className="bg-black border rounded-lg px-4 py-2"
         value={filters.category}
@@ -14,7 +14,7 @@ export default function Filters({ filters, setFilters }) {
         <option value="Familiares">Familiares</option>
         <option value="Party Games">Party Games</option>
       </select>
-
+        {/* filtro por raitin */}
       <select
         className="bg-black border rounded-lg px-4 py-2"
         value={filters.rating}
@@ -27,7 +27,7 @@ export default function Filters({ filters, setFilters }) {
         <option value={4}>⭐ 4+</option>
         <option value={4.5}>⭐ 4.5+</option>
       </select>
-
+        {/* filtro de precio */}
       <select
         className="bg-black border rounded-lg px-4 py-2"
         value={filters.price}
