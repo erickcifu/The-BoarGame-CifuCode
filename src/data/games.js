@@ -34,6 +34,7 @@ export const games = [
     rating: 4.2,
     players: "2-10",
     image: "/images/games/Uno.jpg",
+    featured: true,
   },
   {
     id: 5,
@@ -43,6 +44,7 @@ export const games = [
     rating: 3.3,
     players: "3-4",
     image: "/images/games/BancoPoly2.jpg",
+    featured: true,
   },
   {
     id: 6,

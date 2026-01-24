@@ -36,9 +36,9 @@ export default function Filters({ filters, setFilters }) {
         }
       >
         <option value={0}>Cualquier precio</option>
-        <option value={10}>Hasta $20</option>
-        <option value={20}>Hasta $20</option>
-        <option value={30}>Hasta $30</option>
+        <option value={10}>Hasta Q20</option>
+        <option value={20}>Hasta Q20</option>
+        <option value={30}>Hasta Q30</option>
       </select>
     </div>
   );
