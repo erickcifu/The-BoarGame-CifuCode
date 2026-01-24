@@ -33,7 +33,7 @@ export const games = [
     price: 12,
     rating: 4.2,
     players: "2-10",
-    image: "/images/games/uno.jpg",
+    image: "/images/games/Uno.jpg",
   },
   {
     id: 5,
@@ -69,6 +69,6 @@ export const games = [
     price: 12,
     rating: 4.2,
     players: "2-10",
-    image: "/images/games/uno.jpg",
+    image: "/images/games/Unogame.jpg",
   },
 ];
