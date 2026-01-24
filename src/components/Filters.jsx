@@ -23,6 +23,7 @@ export default function Filters({ filters, setFilters }) {
         }
       >
         <option value={0}>Cualquier rating</option>
+        <option value={3}>⭐ 3+</option>
         <option value={4}>⭐ 4+</option>
         <option value={4.5}>⭐ 4.5+</option>
       </select>
@@ -35,6 +36,7 @@ export default function Filters({ filters, setFilters }) {
         }
       >
         <option value={0}>Cualquier precio</option>
+        <option value={10}>Hasta $20</option>
         <option value={20}>Hasta $20</option>
         <option value={30}>Hasta $30</option>
       </select>
