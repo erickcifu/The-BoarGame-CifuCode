@@ -7,7 +7,7 @@ export default function Sponsors() {
       <h3 className="text-center text-gray-500 mb-8">
         Marcas que confían en nosotros
       </h3>
-
+      {/* imgen sponsor */}
       <div className="flex justify-center gap-10 items-center">
         {sponsors.map((s) => (
           <Image

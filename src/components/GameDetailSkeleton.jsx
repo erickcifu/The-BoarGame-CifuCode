@@ -1,5 +1,6 @@
 export default function GameDetailSkeleton() {
   return (
+    // animacion del catalogo de juegos
     <section className="max-w-5xl mx-auto px-6 py-20 animate-pulse">
       <div className="grid md:grid-cols-2 gap-10">
         <div className="h-80 bg-gray-200 rounded-xl"></div>

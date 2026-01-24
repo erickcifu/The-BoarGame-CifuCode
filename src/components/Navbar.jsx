@@ -12,7 +12,7 @@ export default function Navbar() {
           🎲 The Board Game CifuCode
         </h1>
 
-        {/* Desktop menu (igual que antes) */}
+        {/* menu de escritorio */}
         <ul className="hidden md:flex gap-6 text-sm">
           <li>
             <a href="#catalogo" className="hover:text-blue-400">
@@ -31,7 +31,7 @@ export default function Navbar() {
           </li>
         </ul>
 
-        {/* Botón mobile */}
+        {/* boton para telefono*/}
         <button
           className="md:hidden text-2xl"
           onClick={() => setOpen(!open)}
@@ -41,7 +41,7 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile menu (MISMO diseño, solo vertical) */}
+      {/* menu del movil en forma vertical*/}
       {open && (
         <ul className="md:hidden mt-4 flex flex-col gap-4 text-sm">
           <li>

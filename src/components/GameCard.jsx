@@ -21,7 +21,7 @@ export default function GameCard({ game }) {
           </span>
         )}
 
-        {/* IMAGEN */}
+        {/* imagen */}
         <div className="relative w-full h-56">
           <Image
             src={game.image}

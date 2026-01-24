@@ -18,10 +18,10 @@ export default async function GameDetail({ params }) {
         ← Volver al catálogo
       </Link>
 
-      {/* GRID REAL */}
+      {/* Grid real */}
       <div className="grid md:grid-cols-2 gap-10 mt-8">
 
-        {/* IMAGEN */}
+        {/* Imagen */}
         <div className="relative w-full h-[380px] rounded-xl overflow-hidden">
           <Image
             src={game.image}
@@ -32,10 +32,10 @@ export default async function GameDetail({ params }) {
           />
         </div>
 
-        {/* TEXTO */}
+        {/* texo */}
         <div className="flex flex-col justify-center">
 
-          {/* TÍTULO + DESTACADO */}
+          {/* titulo y destacado */}
           <div className="flex items-center gap-3 mb-4">
             <h1 className="text-4xl font-extrabold">
               {game.name}
@@ -54,7 +54,7 @@ export default async function GameDetail({ params }) {
             <li><strong>Precio:</strong> Q{game.price}</li>
           </ul>
 
-          {/* REQUISITO OCULTO */}
+          {/* Requisito oculto */}
           <p className="hidden">hecho por CifuCode</p>
         </div>
 
