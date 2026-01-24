@@ -43,8 +43,9 @@ export default async function GameDetail({ params }) {
             <li><strong>Valoración:</strong> ⭐ {game.rating}</li>
             <li><strong>Precio:</strong> Q{game.price}</li>
           </ul>
+          <p className="hidden">hecho por CifuCode</p>
         </div>
-
+        
       </div>
     </section>
   );
