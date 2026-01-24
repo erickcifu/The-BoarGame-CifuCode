@@ -20,7 +20,7 @@ export default async function GameDetail({ params }) {
 
       {/* GRID REAL */}
       <div className="grid md:grid-cols-2 gap-10 mt-8">
-        
+
         {/* IMAGEN */}
         <div className="relative w-full h-[380px] rounded-xl overflow-hidden">
           <Image
@@ -34,18 +34,30 @@ export default async function GameDetail({ params }) {
 
         {/* TEXTO */}
         <div className="flex flex-col justify-center">
-          <h1 className="text-4xl font-extrabold mb-4">
-            {game.name}
-          </h1>
+
+          {/* TÍTULO + DESTACADO */}
+          <div className="flex items-center gap-3 mb-4">
+            <h1 className="text-4xl font-extrabold">
+              {game.name}
+            </h1>
+
+            {game.featured && (
+              <span className="bg-yellow-400 text-yellow-900 text-xs font-bold px-3 py-1 rounded-full shadow">
+                👑 Juego destacado
+              </span>
+            )}
+          </div>
 
           <ul className="space-y-3 text-base text-gray-700">
             <li><strong>Categoría:</strong> {game.category}</li>
             <li><strong>Valoración:</strong> ⭐ {game.rating}</li>
             <li><strong>Precio:</strong> Q{game.price}</li>
           </ul>
+
+          {/* REQUISITO OCULTO */}
           <p className="hidden">hecho por CifuCode</p>
         </div>
-        
+
       </div>
     </section>
   );
